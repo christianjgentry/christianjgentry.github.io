@@ -42,6 +42,12 @@ display: none; *removes element and space from webpage*
 
 box-sizing: border-box or content-box
 
+position: static (default), relative, absolute, fixed;
+top: 50px;
+right: 50px;
+bottom: 50px;
+left: 50px;
+
 * {
 	margin: 0;
 	padding: 0;
@@ -66,4 +72,8 @@ h1,
 h2 {
 	color: green;
 	font-family: Arial;
+}
+
+.title {
+	text-align: center;
 }
