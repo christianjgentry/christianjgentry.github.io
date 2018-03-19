@@ -1,4 +1,69 @@
+/*
+Common Parameters:
+
+selector(tag, .class, or #id) {
+
+color:#FFF; or red;
+background-color:#FFF; or red;
+
+opcaity: (from 0.00-1.00)
+
+font-family: Arial
+font-size: 14px;
+font-weight: bold;
+
+text-align: left, center, right;
+text-transform: uppercase, lowercase;
+
+background: red; linear-gradient, radial gradient; 
+background-image: url("https://_______.com") or url("./img/image1.jpg");
+
+height: 200px;
+
+list-style: square, round
+
+border: width(300px) style(none, dotted, solid), color(red, blue, etc.);
+border-radius: 5px;
+
+padding: 10px auto;
+padding-(top right bottom left): 10px auto;
+
+margin: 10px auto;
+margin-(top right bottom left): 10px auto;
+
+min-(width or height): 300px;
+max-(width or height): 600px;
+
+overflow: hidden, visible, scroll;
+
+visibility: hidden, visible;
+
+display: none; *removes element and space from webpage*
+
+box-sizing: border-box or content-box
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box or content-box;
+}
+
+}
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 p {
 color: red;
 font-family: Proxima Nova;
+}
+
+h1,
+h2 {
+	color: green;
+	font-family: Arial;
 }
