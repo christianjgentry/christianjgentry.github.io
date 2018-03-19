@@ -61,19 +61,36 @@ left: 50px;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Signika;
+}
+
+body {
+	
 }
 
 p {
 color: red;
-font-family: Proxima Nova;
-}
-
-h1,
-h2 {
-	color: green;
-	font-family: Arial;
 }
 
 .title {
 	text-align: center;
+	margin: 60px auto;
+	font-size: 72px;
+	color: red;
+	border: 2px solid red;
+	width: 600px;
 }
+
+.footerlinks {
+	text-align: center;
+	margin: 60px;
+}
+
+.button {
+	border: 2px solid red;
+}
+
+@font-face {
+	font-family: "Signika";
+	src: url("./css/fonts/SignikaNegative-Regular") format('truetype');
+	}
