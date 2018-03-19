@@ -54,22 +54,31 @@ left: 50px;
 	box-sizing: border-box or content-box;
 }
 
+@font-face {
+	font-family: "Signika";
+	src: url(css/fonts/signika) format('truetype');
+	} 
+
 }
 */
+
+/*
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Signika;
-}
-
-body {
+	font-family: Arial;
+	text-align: center;
 	
 }
 
+body {
+	background-color: rgba(55, 55, 55, 1);
+}
+
 p {
-color: red;
+color: white;
 }
 
 .title {
@@ -82,15 +91,39 @@ color: red;
 }
 
 .footerlinks {
-	text-align: center;
 	margin: 60px;
+	color: white;
 }
 
 .button {
 	border: 2px solid red;
 }
 
-@font-face {
-	font-family: "Signika";
-	src: url(css/fonts/signika) format('truetype');
+div #banner {
+	background: url(_400.png);
+	} */
+
+	* {
+		font-family: Helvetica;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	
+	.banner {
+	background-image: url('./img/banner_1.png');
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+	height: 300px;
+	}
+
+	div .herotext {
+	position: relative;
+	color: red;
+	font-size: 36px;
+	text-align: center;
+	margin: auto;
+	top: 100px;
 	}
