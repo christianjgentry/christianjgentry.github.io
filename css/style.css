@@ -117,10 +117,11 @@ div #banner {
 	}
 
 	.banner {
-	border: 2px solid gray;
+	/* border: 2px solid gray; */
 	width: 700px;
 	margin: 30px 30px;
 	}
+
 
 	.links {
 	font-size: 18px;
@@ -130,6 +131,16 @@ div #banner {
 	list-style: none;
 	position: relative;
 		top: -15px;
+	}
+
+	li:hover {
+	font-size: 20px;
+	width: 200px;
+	background: gray;
+	list-style: none;
+	position: relative;
+		top: -15px;
+
 	}
 
 	.herotext {
