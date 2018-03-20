@@ -42,7 +42,7 @@ display: none; *removes element and space from webpage*
 
 box-sizing: border-box or content-box
 
-position: static (default), relative, absolute, fixed;
+position: static (default), relative, absolute, fixed (locks element even if user scrolls);
 top: 50px;
 right: 50px;
 bottom: 50px;
@@ -106,7 +106,7 @@ div #banner {
 	* {
 		font-family: courier new;
 		box-sizing: border-box;
-		color: white;
+		color: gray;
 	}
 
 	body {
@@ -135,6 +135,7 @@ div #banner {
 
 	li:hover {
 	font-size: 20px;
+	color: white;
 	width: 200px;
 	background: gray;
 	list-style: none;
