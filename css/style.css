@@ -60,48 +60,8 @@ left: 50px;
 	} 
 
 }
+
 */
-
-/*
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: Arial;
-	text-align: center;
-	
-}
-
-body {
-	background-color: rgba(55, 55, 55, 1);
-}
-
-p {
-color: white;
-}
-
-.title {
-	text-align: center;
-	margin: 60px auto;
-	font-size: 72px;
-	color: red;
-	border: 2px solid red;
-	width: 600px;
-}
-
-.footerlinks {
-	margin: 60px;
-	color: white;
-}
-
-.button {
-	border: 2px solid red;
-}
-
-div #banner {
-	background: url(_400.png);
-	} */
 
 	* {
 		font-family: courier new;
@@ -142,7 +102,6 @@ div #banner {
 	list-style: none;
 	position: relative;
 		top: -15px;
-
 	}
 
 	.herotext {
@@ -150,7 +109,6 @@ div #banner {
 	text-align: left;
 	position: relative;
 		left: 30px;
-	
 	}
 
 	footer {
