@@ -55,16 +55,16 @@ left: 50px;
 }
 
 @font-face {
-	font-family: "Signika";
-	src: url(css/fonts/signika) format('truetype');
-	} 
+		font-family: "Signika";
+		src: url('../css/fonts/signika.ttf') format('truetype');
 
 }
 
 */
+	
 
 	* {
-		font-family: courier new;
+		font-family: "Courier New";
 		box-sizing: border-box;
 		color: gray;
 	}
