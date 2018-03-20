@@ -38,7 +38,7 @@ overflow: hidden, visible, scroll;
 
 visibility: hidden, visible;
 
-display: none; *removes element and space from webpage*
+display: none; *removes element and space from webpage* inline; block; inline-block;
 
 box-sizing: border-box or content-box
 
@@ -112,13 +112,14 @@ div #banner {
 	body {
 		background: black url('https://i.imgur.com/WlPnN0c.jpg') no-repeat;
 		background-size: cover;
-		width: 50%;
 		overflow: scroll;
+		position: relative;
+		z-index: 0;
 	}
 
 	.banner {
 	/* border: 2px solid gray; */
-	width: 700px;
+	width: 400px;
 	margin: 30px 30px;
 	}
 
@@ -149,5 +150,16 @@ div #banner {
 	text-align: left;
 	position: relative;
 		left: 30px;
+	
 	}
 
+	footer {
+		background: rgba(0, 0, 0, .3);
+		position: fixed;
+		z-index: 10;
+		bottom: 0;
+		width: 200%;
+		font-size: 14px;
+		padding-left: 20px;
+		margin-left: -10px;
+	}
