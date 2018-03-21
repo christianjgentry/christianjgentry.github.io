@@ -103,6 +103,12 @@ left: 50px;
 	list-style: none;
 	position: relative;
 		top: -15px;
+
+  animation: blinker 1.85s linear infinite;
+}	@keyframes blinker {
+	  50% {
+	 opacity: 0;
+	  }
 	}
 
 	.herotext {
@@ -112,7 +118,7 @@ left: 50px;
 		left: 30px;
 	}
 
-	/*BACKGROUND (can't link local files for some reason*/ 
+	/*BACKGROUND (can't link local files for some reason.*/ 
 
 	/*body {
 		background: black url('https://i.imgur.com/WlPnN0c.jpg') no-repeat;
@@ -135,7 +141,7 @@ left: 50px;
 		margin-left: -10px;
 	}
 
-	/*EXTERNAL LOGOS*/
+	/*EXTERNAL LOGOS (could be optimized better*/ 
 
 	footer .external_logo_1 {
 		z-index: 11;
@@ -151,6 +157,12 @@ left: 50px;
 
 		footer .external_logo_1:hover{
 			opacity: 1;
+
+		animation: blinker 1.85s linear infinite;
+}		@keyframes blinker {
+		  50% {
+		 opacity: 0;
+		 }
 		}
 
 	footer .external_logo_2 {
@@ -167,6 +179,11 @@ left: 50px;
 
 		footer .external_logo_2:hover{
 			opacity: 1;
+		animation: blinker 1.85s linear infinite;
+}			@keyframes blinker {
+			 50% {
+			 opacity: 0;
+			 }
 		}
 
 	footer .external_logo_3 {
@@ -183,6 +200,11 @@ left: 50px;
 
 		footer .external_logo_3:hover{
 			opacity: 1;
+		animation: blinker 1.85s linear infinite;
+}			@keyframes blinker {
+			 50% {
+			 opacity: 0;
+			 }
 		}
 
 	footer .external_logo_4 {
@@ -199,6 +221,11 @@ left: 50px;
 
 		footer .external_logo_4:hover{
 			opacity: 1;
+		animation: blinker 1.85s linear infinite;
+}			@keyframes blinker {
+			 50% {
+			 opacity: 0;
+			 }
 		}
 
 /*ANIMATIONS*/
