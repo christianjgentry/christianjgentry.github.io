@@ -112,14 +112,15 @@ left: 50px;
 		left: 30px;
 	}
 
-	/*BACKGROUND*/
+	/*BACKGROUND (can't link local files for some reason*/ 
 
-	body {
+	/*body {
 		background: black url('https://i.imgur.com/WlPnN0c.jpg') no-repeat;
 		background-size: cover;
 		position: relative;
 		z-index: 0;
-	}
+	}*/
+
 
 	/*FOOTER*/
 
