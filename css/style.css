@@ -63,20 +63,19 @@ left: 50px;
 */
 	
 
+
+	/*NAV MENU*/
+
 	* {
 		font-family: 'Source Code Pro', monospace;
 		box-sizing: border-box;
 		color: gray;
 	}
 
-	body {
-		background: black url('https://i.imgur.com/WlPnN0c.jpg') no-repeat;
-		background-size: cover;
-		overflow: scroll;
-		position: relative;
-		z-index: 0;
+	.menu {
+		position: fixed;
 	}
-
+	
 	.banner {
 	/* border: 2px solid gray; */
 	width: 400px;
@@ -113,6 +112,17 @@ left: 50px;
 		left: 30px;
 	}
 
+	/*BACKGROUND*/
+
+	body {
+		background: black url('https://i.imgur.com/WlPnN0c.jpg') no-repeat;
+		background-size: cover;
+		position: relative;
+		z-index: 0;
+	}
+
+	/*FOOTER*/
+
 	footer {
 		background: rgba(0, 0, 0, .3);
 		position: fixed;
@@ -124,24 +134,76 @@ left: 50px;
 		margin-left: -10px;
 	}
 
-	footer .external_logo {
-		height: 50px;
-		width: 50px;
-		opacity: .5;
+	/*EXTERNAL LOGOS*/
+
+	footer .external_logo_1 {
+		z-index: 11;
+		height: 40px;
+		width: 40px;
+		opacity: .3;
+		margin-right: 30px;
 		position: fixed;
 			right: 0;
 			bottom: 0;
 	}
 
-	footer .external_logo:hover{
-		opacity: 1;
+		footer .external_logo_1:hover{
+			opacity: 1;
+		}
+
+	footer .external_logo_2 {
+		z-index: 11;
+		height: 40px;
+		width: 40px;
+		opacity: .3;
+		margin-right: 100px;
+		position: fixed;
+			right: 0;
+			bottom: 0;
 	}
+
+		footer .external_logo_2:hover{
+			opacity: 1;
+		}
+
+	footer .external_logo_3 {
+		z-index: 11;
+		height: 40px;
+		width: 40px;
+		opacity: .3;
+		margin-right: 170px;
+		position: fixed;
+			right: 0;
+			bottom: 0;
+	}
+
+		footer .external_logo_3:hover{
+			opacity: 1;
+		}
+
+	footer .external_logo_4 {
+		z-index: 11;
+		height: 40px;
+		width: 40px;
+		opacity: .3;
+		margin-right: 240px;
+		position: fixed;
+			right: 0;
+			bottom: 0;
+	}
+
+		footer .external_logo_4:hover{
+			opacity: 1;
+		}
+
+/*ANIMATIONS*/
+
 	._ {
   animation: blinker 1.85s linear infinite;
 }
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
+	@keyframes blinker {
+	  50% {
+	 opacity: 0;
+	  }
+	}
