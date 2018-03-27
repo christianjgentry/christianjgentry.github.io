@@ -1,6 +1,7 @@
 * {
 	font-family: "Source Code Pro", "Courier New";
 	color: gray;
+    text-decoration: none;
 }
 
 body {
@@ -36,6 +37,31 @@ body {
 		grid-area: nav;
 	}
 
+    li {
+        list-style: none;
+    }
+
+   .nav a {
+        position: relative;
+        width: 260px;
+        top: -10px;
+        font-size: 18px;
+        opacity: .5;
+            }
+
+    .nav a:hover {
+        position: relative;
+        padding-right: 100px;
+        background: gray;
+        color: white;
+        font-size: 24px;
+        animation: blinker 1.85s linear infinite;
+    }
+
+    ._ {
+        animation: blinker 1.85s linear infinite;
+    }
+    
 	.copyright {
 		background: transparent;
 		grid-area: copyright;
@@ -85,28 +111,6 @@ body {
 		font-size: 16px;
 		opacity: .3;
 	}
-
-	li {
-		position: relative;
-		top: -10px;
-		list-style: none;
-		font-size: 18px;
-		opacity: .5;
-	}
-
-	li:hover {
-		width: 260px;
-		background: gray;
-		color: white;
-		font-size: 24px;
-		animation: blinker 1.85s linear infinite;
-			}@keyframes blinker {
-			50% {opacity: 1;}
-	}
-
-	._ {
-  animation: blinker 1.85s linear infinite;
-}
 
 	@keyframes blinker {
 	  50% {
